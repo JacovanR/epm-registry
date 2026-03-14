@@ -1,0 +1,48 @@
+[
+  {
+    "TemplateId": "sales_conversion_001",
+    "Name": "Sales Conversion Rate",
+    "Category": "Sales & Growth",
+    "TemplateType": "KPI",
+    "Description": "Measures the efficiency of the sales team in converting leads into paying customers. Industry standard for high-growth SaaS.",
+    "Version": "1.1",
+    "Definition": {
+      "MeasurementUnit": "%",
+      "Metrics": [
+        {
+          "Name": "Lead-to-Customer Ratio",
+          "TargetValue": 15.0,
+          "WeightPercentage": 100.0,
+          "Type": "Percentage",
+          "ScoringModel": "Standard",
+          "Frequency": "Monthly"
+        }
+      ]
+    }
+  },
+  {
+    "TemplateId": "compliance_security_001",
+    "Name": "Information Security Fundamentals",
+    "Category": "Risk & Compliance",
+    "TemplateType": "TrainingCourse",
+    "Description": "Essential training covering phishing, password hygiene, and data protection (GDPR/POPI compliance).",
+    "Version": "1.0",
+    "Definition": {
+      "DurationHours": 2,
+      "Provider": "EPM Internal",
+      "SkillsImproved": ["Data Privacy", "Cyber Awareness"]
+    }
+  },
+  {
+    "TemplateId": "idp_new_manager_001",
+    "Name": "New Manager Accelerator",
+    "Category": "Leadership",
+    "TemplateType": "IDP",
+    "Description": "A 90-day growth plan for newly promoted leaders focusing on delegation and emotional intelligence.",
+    "Version": "1.0",
+    "Definition": {
+      "FocusAreas": ["Delegation", "Conflict Resolution", "Performance Coaching"],
+      "RecommendedDurationMonths": 3
+    }
+  }
+]
