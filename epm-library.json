@@ -44,5 +44,20 @@
       "FocusAreas": ["Delegation", "Conflict Resolution", "Performance Coaching"],
       "RecommendedDurationMonths": 3
     }
+  },
+  {
+  "TemplateId": "skill_digital_literacy_001",
+  "Name": "Digital Literacy & AI Fluency",
+  "Category": "Future Skills",
+  "TemplateType": "Competency",
+  "Description": "Foundational skills for the modern workplace, including AI prompt engineering and data security awareness.",
+  "Version": "1.0",
+  "Definition": {
+    "Level": "Intermediate",
+    "KeyIndicators": [
+      "Can use Generative AI tools effectively",
+      "Understands basic data privacy principles",
+      "Can navigate cloud-based collaboration suites"
+    ]
   }
 ]
