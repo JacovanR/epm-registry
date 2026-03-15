@@ -1,0 +1,209 @@
+{
+  "library": "Enterprise Ultimate KPI Library",
+  "version": "1.0",
+  "description": "Comprehensive enterprise KPI, Training and IDP template library with role-based packs and department packs supporting 500+ KPIs.",
+
+  "packs": [
+
+{
+"packId":"callcenter_sales_pack",
+"name":"Call Center Sales Performance Pack",
+"department":"Sales",
+
+"kpis":[
+{"id":"sales_calls_made","name":"Sales Calls Made","metric":"number","target":1200},
+{"id":"sales_conversion_rate","name":"Sales Conversion Rate","metric":"percentage","target":20},
+{"id":"sales_revenue_generated","name":"Revenue Generated","metric":"currency","target":"team_target"},
+{"id":"sales_products_sold","name":"Products Sold","metric":"number","target":150},
+{"id":"sales_followups_completed","name":"Sales Follow Ups Completed","metric":"number","target":300},
+{"id":"sales_upsell_rate","name":"Upsell Rate","metric":"percentage","target":10},
+{"id":"sales_cross_sell_rate","name":"Cross Sell Rate","metric":"percentage","target":8},
+{"id":"sales_call_quality","name":"Sales Call Quality Score","metric":"percentage","target":90}
+],
+
+"training":[
+{"id":"sales_mastery","title":"Professional Sales Mastery"},
+{"id":"call_closing_skills","title":"Closing Sales Effectively"},
+{"id":"product_sales_training","title":"Product Sales Knowledge"}
+],
+
+"idpGoals":[
+{"id":"improve_sales_conversion","goal":"Improve sales conversion techniques"},
+{"id":"improve_product_knowledge","goal":"Improve product knowledge"},
+{"id":"improve_sales_confidence","goal":"Increase confidence in closing sales"}
+]
+},
+
+{
+"packId":"customer_service_pack",
+"name":"Customer Service Excellence Pack",
+"department":"Customer Service",
+
+"kpis":[
+{"id":"cs_calls_handled","name":"Calls Handled","metric":"number","target":1500},
+{"id":"cs_first_call_resolution","name":"First Call Resolution","metric":"percentage","target":85},
+{"id":"cs_customer_satisfaction","name":"Customer Satisfaction Score","metric":"rating","target":4},
+{"id":"cs_average_handle_time","name":"Average Handle Time","metric":"minutes","target":6},
+{"id":"cs_call_quality_score","name":"Call Quality Score","metric":"percentage","target":90},
+{"id":"cs_escalations","name":"Call Escalations","metric":"number","target":10},
+{"id":"cs_schedule_adherence","name":"Schedule Adherence","metric":"percentage","target":95}
+],
+
+"training":[
+{"id":"customer_service_excellence","title":"Customer Service Excellence"},
+{"id":"conflict_resolution","title":"Handling Difficult Customers"},
+{"id":"communication_skills","title":"Professional Communication Skills"}
+],
+
+"idpGoals":[
+{"id":"improve_customer_interaction","goal":"Improve customer interaction skills"},
+{"id":"reduce_escalations","goal":"Reduce call escalations"},
+{"id":"improve_problem_solving","goal":"Improve problem solving skills"}
+]
+},
+
+{
+"packId":"early_stage_collections_pack",
+"name":"Early Stage Collections Pack",
+"department":"Collections",
+
+"kpis":[
+{"id":"collections_calls_made","name":"Collections Calls Made","metric":"number","target":1200},
+{"id":"collections_ptp_rate","name":"Promise To Pay Rate","metric":"percentage","target":30},
+{"id":"collections_ptp_kept","name":"Promises Kept","metric":"percentage","target":70},
+{"id":"collections_amount_collected","name":"Amount Collected","metric":"currency","target":"team_target"},
+{"id":"collections_accounts_contacted","name":"Accounts Contacted","metric":"number","target":800},
+{"id":"collections_arrangements_made","name":"Payment Arrangements Made","metric":"number","target":200}
+],
+
+"training":[
+{"id":"collections_negotiation","title":"Collections Negotiation Skills"},
+{"id":"debt_counselling_basics","title":"Debt Counselling Fundamentals"}
+],
+
+"idpGoals":[
+{"id":"improve_negotiation","goal":"Improve negotiation capability"},
+{"id":"improve_debtor_engagement","goal":"Improve debtor engagement techniques"}
+]
+},
+
+{
+"packId":"marketing_pack",
+"name":"Marketing Performance Pack",
+"department":"Marketing",
+
+"kpis":[
+{"id":"marketing_campaign_roi","name":"Campaign ROI","metric":"percentage","target":150},
+{"id":"marketing_leads_generated","name":"Leads Generated","metric":"number","target":2000},
+{"id":"marketing_conversion_rate","name":"Conversion Rate","metric":"percentage","target":10},
+{"id":"marketing_engagement_rate","name":"Engagement Rate","metric":"percentage","target":20},
+{"id":"marketing_cost_per_lead","name":"Cost Per Lead","metric":"currency","target":50},
+{"id":"marketing_website_traffic","name":"Website Traffic Growth","metric":"percentage","target":25}
+],
+
+"training":[
+{"id":"digital_marketing","title":"Digital Marketing Strategy"},
+{"id":"marketing_analytics","title":"Marketing Analytics"}
+],
+
+"idpGoals":[
+{"id":"improve_marketing_strategy","goal":"Improve marketing strategy skills"},
+{"id":"improve_marketing_analytics","goal":"Improve marketing data analytics"}
+]
+},
+
+{
+"packId":"it_operations_pack",
+"name":"IT Operations Pack",
+"department":"IT",
+
+"kpis":[
+{"id":"it_system_uptime","name":"System Uptime","metric":"percentage","target":99.9},
+{"id":"it_incident_resolution_time","name":"Incident Resolution Time","metric":"hours","target":8},
+{"id":"it_service_requests_closed","name":"Service Requests Closed","metric":"number","target":300},
+{"id":"it_security_incidents","name":"Security Incidents","metric":"number","target":0},
+{"id":"it_project_delivery","name":"Projects Delivered On Time","metric":"percentage","target":90},
+{"id":"it_user_satisfaction","name":"User Satisfaction Score","metric":"rating","target":4}
+],
+
+"training":[
+{"id":"cybersecurity_training","title":"Cybersecurity Awareness"},
+{"id":"cloud_infrastructure","title":"Cloud Infrastructure Management"}
+],
+
+"idpGoals":[
+{"id":"improve_security_skills","goal":"Improve cybersecurity expertise"},
+{"id":"improve_cloud_skills","goal":"Improve cloud architecture knowledge"}
+]
+},
+
+{
+"packId":"finance_pack",
+"name":"Finance Operations Pack",
+"department":"Finance",
+
+"kpis":[
+{"id":"finance_budget_variance","name":"Budget Variance","metric":"percentage","target":5},
+{"id":"finance_invoice_processing_time","name":"Invoice Processing Time","metric":"hours","target":48},
+{"id":"finance_cashflow_accuracy","name":"Cashflow Forecast Accuracy","metric":"percentage","target":95},
+{"id":"finance_expense_control","name":"Expense Control","metric":"percentage","target":90}
+],
+
+"training":[
+{"id":"financial_reporting","title":"Financial Reporting Excellence"},
+{"id":"budget_management","title":"Budget Planning"}
+],
+
+"idpGoals":[
+{"id":"improve_financial_analysis","goal":"Improve financial analysis capability"},
+{"id":"improve_budget_management","goal":"Improve budget management skills"}
+]
+},
+
+{
+"packId":"compliance_pack",
+"name":"Compliance & Regulatory Pack",
+"department":"Compliance",
+
+"kpis":[
+{"id":"compliance_audit_score","name":"Audit Score","metric":"percentage","target":95},
+{"id":"compliance_policy_adherence","name":"Policy Adherence","metric":"percentage","target":98},
+{"id":"compliance_incidents","name":"Compliance Incidents","metric":"number","target":0}
+],
+
+"training":[
+{"id":"regulatory_compliance","title":"Regulatory Compliance"},
+{"id":"risk_management_training","title":"Enterprise Risk Management"}
+],
+
+"idpGoals":[
+{"id":"improve_regulatory_knowledge","goal":"Improve regulatory knowledge"},
+{"id":"improve_risk_assessment","goal":"Improve risk assessment capability"}
+]
+},
+
+{
+"packId":"insurance_sales_pack",
+"name":"Credit Life & Funeral Insurance Sales Pack",
+"department":"Insurance",
+
+"kpis":[
+{"id":"insurance_policies_sold","name":"Policies Sold","metric":"number","target":120},
+{"id":"insurance_conversion_rate","name":"Insurance Conversion Rate","metric":"percentage","target":18},
+{"id":"insurance_policy_retention","name":"Policy Retention Rate","metric":"percentage","target":90},
+{"id":"insurance_customer_satisfaction","name":"Customer Satisfaction","metric":"rating","target":4}
+],
+
+"training":[
+{"id":"insurance_products_training","title":"Insurance Product Knowledge"},
+{"id":"insurance_sales_training","title":"Insurance Sales Mastery"}
+],
+
+"idpGoals":[
+{"id":"improve_insurance_sales","goal":"Improve insurance sales techniques"},
+{"id":"improve_product_knowledge","goal":"Improve insurance product knowledge"}
+]
+}
+
+]
+}
