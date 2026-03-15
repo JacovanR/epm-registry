@@ -1,0 +1,128 @@
+{
+  "version": "3.0",
+  "library": "Enterprise Performance Expansion Pack",
+
+  "packs": [
+
+    {
+      "packId": "executive_strategy_pack",
+      "name": "Executive Strategy & Balanced Scorecard Pack",
+      "department": "Executive",
+
+      "kpis":[
+        {"id":"exec_revenue_growth","name":"Revenue Growth","metric":"percentage","target":10,"frequency":"quarterly"},
+        {"id":"exec_profit_margin","name":"Profit Margin","metric":"percentage","target":20,"frequency":"quarterly"},
+        {"id":"exec_customer_retention","name":"Customer Retention Rate","metric":"percentage","target":90,"frequency":"quarterly"},
+        {"id":"exec_employee_engagement","name":"Employee Engagement Score","metric":"rating","target":4,"frequency":"quarterly"},
+        {"id":"exec_operational_efficiency","name":"Operational Efficiency Index","metric":"percentage","target":85,"frequency":"quarterly"}
+      ],
+
+      "training":[
+        {"id":"leadership_strategy","title":"Strategic Leadership","hours":8},
+        {"id":"executive_decision_making","title":"Executive Decision Making","hours":6}
+      ],
+
+      "idpGoals":[
+        {"id":"improve_strategy","goal":"Improve strategic planning capability","months":6},
+        {"id":"improve_leadership","goal":"Improve executive leadership capability","months":6}
+      ]
+    },
+
+    {
+      "packId": "finance_operations_pack",
+      "name": "Finance Operations Pack",
+      "department": "Finance",
+
+      "kpis":[
+        {"id":"fin_accounts_reconciliation","name":"Accounts Reconciliation Accuracy","metric":"percentage","target":99,"frequency":"monthly"},
+        {"id":"fin_invoice_processing","name":"Invoice Processing Time","metric":"time","target":"48 hours","frequency":"monthly"},
+        {"id":"fin_budget_variance","name":"Budget Variance","metric":"percentage","target":5,"frequency":"monthly"},
+        {"id":"fin_cash_flow_accuracy","name":"Cash Flow Forecast Accuracy","metric":"percentage","target":95,"frequency":"monthly"},
+        {"id":"fin_expense_control","name":"Expense Control Index","metric":"percentage","target":90,"frequency":"monthly"}
+      ],
+
+      "training":[
+        {"id":"financial_reporting","title":"Financial Reporting Excellence","hours":6},
+        {"id":"budget_management","title":"Budget Planning and Control","hours":6}
+      ],
+
+      "idpGoals":[
+        {"id":"improve_financial_analysis","goal":"Improve financial analysis capability","months":6},
+        {"id":"improve_budget_management","goal":"Improve budget management skills","months":6}
+      ]
+    },
+
+    {
+      "packId": "hr_management_pack",
+      "name": "HR Management Pack",
+      "department": "HR",
+
+      "kpis":[
+        {"id":"hr_employee_retention","name":"Employee Retention Rate","metric":"percentage","target":90,"frequency":"quarterly"},
+        {"id":"hr_time_to_hire","name":"Time to Hire","metric":"days","target":30,"frequency":"monthly"},
+        {"id":"hr_training_completion","name":"Training Completion Rate","metric":"percentage","target":95,"frequency":"monthly"},
+        {"id":"hr_employee_engagement","name":"Employee Engagement Score","metric":"rating","target":4,"frequency":"quarterly"},
+        {"id":"hr_performance_reviews","name":"Performance Reviews Completed","metric":"percentage","target":100,"frequency":"quarterly"}
+      ],
+
+      "training":[
+        {"id":"hr_leadership_training","title":"HR Leadership Development","hours":8},
+        {"id":"hr_employee_relations","title":"Employee Relations Management","hours":6}
+      ],
+
+      "idpGoals":[
+        {"id":"improve_people_management","goal":"Improve people management capability","months":6},
+        {"id":"improve_employee_engagement","goal":"Improve employee engagement initiatives","months":6}
+      ]
+    },
+
+    {
+      "packId": "quality_assurance_pack",
+      "name": "Quality Assurance Pack",
+      "department": "Quality Assurance",
+
+      "kpis":[
+        {"id":"qa_audit_accuracy","name":"Audit Accuracy","metric":"percentage","target":95,"frequency":"monthly"},
+        {"id":"qa_process_compliance","name":"Process Compliance Rate","metric":"percentage","target":95,"frequency":"monthly"},
+        {"id":"qa_defect_rate","name":"Defect Rate","metric":"percentage","target":2,"frequency":"monthly"},
+        {"id":"qa_quality_score","name":"Quality Score","metric":"percentage","target":90,"frequency":"monthly"},
+        {"id":"qa_corrective_actions","name":"Corrective Actions Closed","metric":"percentage","target":90,"frequency":"monthly"}
+      ],
+
+      "training":[
+        {"id":"quality_management","title":"Quality Management Systems","hours":6},
+        {"id":"audit_skills","title":"Professional Audit Techniques","hours":5}
+      ],
+
+      "idpGoals":[
+        {"id":"improve_audit_skills","goal":"Improve auditing capability","months":5},
+        {"id":"improve_process_analysis","goal":"Improve process analysis skills","months":5}
+      ]
+    },
+
+    {
+      "packId": "insurance_operations_pack",
+      "name": "Credit Life & Funeral Insurance Operations Pack",
+      "department": "Insurance",
+
+      "kpis":[
+        {"id":"ins_policy_sales","name":"Policies Sold","metric":"number","target":"team_target","frequency":"monthly"},
+        {"id":"ins_claim_processing","name":"Claims Processing Time","metric":"time","target":"48 hours","frequency":"monthly"},
+        {"id":"ins_claim_accuracy","name":"Claims Accuracy","metric":"percentage","target":98,"frequency":"monthly"},
+        {"id":"ins_policy_retention","name":"Policy Retention Rate","metric":"percentage","target":90,"frequency":"quarterly"},
+        {"id":"ins_customer_satisfaction","name":"Customer Satisfaction Score","metric":"rating","target":4,"frequency":"quarterly"}
+      ],
+
+      "training":[
+        {"id":"insurance_products_training","title":"Insurance Product Knowledge","hours":6},
+        {"id":"claims_processing_training","title":"Claims Processing Excellence","hours":5}
+      ],
+
+      "idpGoals":[
+        {"id":"improve_product_knowledge","goal":"Improve insurance product expertise","months":6},
+        {"id":"improve_claims_management","goal":"Improve claims processing capability","months":6}
+      ]
+    }
+
+  ]
+}
