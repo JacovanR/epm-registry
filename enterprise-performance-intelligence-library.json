@@ -1,0 +1,117 @@
+{
+  "library": "Enterprise Performance Intelligence Library",
+  "version": "1.0",
+
+  "aiFeatures": {
+    "kpiGeneration": true,
+    "trainingRecommendations": true,
+    "idpGoalRecommendations": true,
+    "predictivePerformanceScoring": true,
+    "industryBenchmarking": true
+  },
+
+  "industryBenchmarks": {
+    "call_center": {
+      "average_handle_time_minutes": 6,
+      "first_call_resolution": 80,
+      "customer_satisfaction": 4,
+      "sales_conversion_rate": 15
+    },
+    "collections": {
+      "promise_to_pay_rate": 25,
+      "promise_kept_rate": 65
+    },
+    "insurance_sales": {
+      "conversion_rate": 15,
+      "policy_retention": 88
+    }
+  },
+
+  "roleTemplates": [
+
+    {
+      "role":"Call Center Agent",
+      "autoAssignPacks":[
+        "callcenter_sales_pack",
+        "customer_service_pack"
+      ]
+    },
+
+    {
+      "role":"Collections Agent",
+      "autoAssignPacks":[
+        "early_stage_collections_pack"
+      ]
+    },
+
+    {
+      "role":"Insurance Sales Consultant",
+      "autoAssignPacks":[
+        "insurance_sales_pack"
+      ]
+    },
+
+    {
+      "role":"IT Manager",
+      "autoAssignPacks":[
+        "it_operations_pack"
+      ]
+    },
+
+    {
+      "role":"Marketing Specialist",
+      "autoAssignPacks":[
+        "marketing_pack"
+      ]
+    }
+
+  ],
+
+  "predictiveScoring": {
+    "enabled": true,
+    "riskThreshold": 3,
+    "predictionMetrics":[
+      "kpiTrend",
+      "attendance",
+      "trainingCompletion",
+      "performanceHistory"
+    ]
+  },
+
+  "aiRecommendations": {
+
+    "performanceBelowTarget":[
+      {
+        "condition":"customer_satisfaction < 3",
+        "training":[
+          "customer_service_excellence"
+        ],
+        "idpGoals":[
+          "improve_customer_interaction"
+        ]
+      },
+
+      {
+        "condition":"sales_conversion_rate < 15",
+        "training":[
+          "sales_mastery",
+          "call_closing_skills"
+        ],
+        "idpGoals":[
+          "improve_sales_conversion"
+        ]
+      },
+
+      {
+        "condition":"collections_ptp_rate < 25",
+        "training":[
+          "collections_negotiation"
+        ],
+        "idpGoals":[
+          "improve_negotiation"
+        ]
+      }
+
+    ]
+  }
+}
