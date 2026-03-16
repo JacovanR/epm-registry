@@ -1,4 +1,5 @@
-{
+[
+  {
   "library": "Enterprise Performance Intelligence Library",
   "version": "1.0",
 
@@ -115,3 +116,4 @@
     ]
   }
 }
+]
