@@ -1,4 +1,5 @@
-{
+[
+  {
   "library": "Enterprise Ultimate Performance Pack",
   "version": "1.0",
   "description": "Comprehensive enterprise KPI, IDP and Training template library supporting 500+ KPIs across all departments.",
@@ -113,3 +114,4 @@
 
   ]
 }
+]
