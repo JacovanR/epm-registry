@@ -1,4 +1,5 @@
-{
+[
+  {
   "version": "3.0",
   "library": "Enterprise Performance Expansion Pack",
 
@@ -126,3 +127,4 @@
 
   ]
 }
+]
