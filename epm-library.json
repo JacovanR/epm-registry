@@ -1,3 +1,4 @@
+[
   {
     "TemplateId": "sales_conversion_001",
     "Name": "Sales Conversion Rate",
@@ -29,7 +30,10 @@
     "Definition": {
       "DurationHours": 2,
       "Provider": "EPM Internal",
-      "SkillsImproved": ["Data Privacy", "Cyber Awareness"]
+      "SkillsImproved": [
+        "Data Privacy",
+        "Cyber Awareness"
+      ]
     }
   },
   {
@@ -40,22 +44,28 @@
     "Description": "A 90-day growth plan for newly promoted leaders focusing on delegation and emotional intelligence.",
     "Version": "1.0",
     "Definition": {
-      "FocusAreas": ["Delegation", "Conflict Resolution", "Performance Coaching"],
+      "FocusAreas": [
+        "Delegation",
+        "Conflict Resolution",
+        "Performance Coaching"
+      ],
       "RecommendedDurationMonths": 3
     }
   },
   {
-  "TemplateId": "skill_digital_literacy_001",
-  "Name": "Digital Literacy & AI Fluency",
-  "Category": "Future Skills",
-  "TemplateType": "Competency",
-  "Description": "Foundational skills for the modern workplace, including AI prompt engineering and data security awareness.",
-  "Version": "1.0",
-  "Definition": {
-    "Level": "Intermediate",
-    "KeyIndicators": [
-      "Can use Generative AI tools effectively",
-      "Understands basic data privacy principles",
-      "Can navigate cloud-based collaboration suites"
-    ]
+    "TemplateId": "skill_digital_literacy_001",
+    "Name": "Digital Literacy & AI Fluency",
+    "Category": "Future Skills",
+    "TemplateType": "Competency",
+    "Description": "Foundational skills for the modern workplace, including AI prompt engineering and data security awareness.",
+    "Version": "1.0",
+    "Definition": {
+      "Level": "Intermediate",
+      "KeyIndicators": [
+        "Can use Generative AI tools effectively",
+        "Understands basic data privacy principles",
+        "Can navigate cloud-based collaboration suites"
+      ]
+    }
   }
+]
